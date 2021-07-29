@@ -72,3 +72,25 @@ form input {
     width: 180px;
     border-radius: 50%;
 }
+
+@media only screen and (max-width: 400px) {
+    .poke-card {
+        max-width: 250px;
+    }
+
+    .poke-img {
+        width: 150px;
+        border-radius: 50%;
+    }
+
+    .poke-types div {
+        padding: 3px;
+        margin: 3px;
+    }
+
+    .poke-stats div {
+        padding: 3px;
+        font-size: 12px;
+    }
+
+}
